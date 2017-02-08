@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nx.SharePoint.Auth0", "Nx.SharePoint.Auth0\Nx.SharePoint.Auth0.csproj", "{A31249E5-47EA-4FD8-94F6-62F532009648}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01898E06-FA70-42B8-AE35-28D2BACDFBD7} = {01898E06-FA70-42B8-AE35-28D2BACDFBD7}
+		{C5395825-EF6D-438E-9E22-95975F1276E8} = {C5395825-EF6D-438E-9E22-95975F1276E8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0.Core", "Auth0.Core\Auth0.Core.csproj", "{C5395825-EF6D-438E-9E22-95975F1276E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0.ManagementApi", "Auth0.ManagementApi\Auth0.ManagementApi.csproj", "{01898E06-FA70-42B8-AE35-28D2BACDFBD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thirdparty", "thirdparty", "{08C254FA-3FFC-42FC-AC2C-D56F5D9B75F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sharepoint", "sharepoint", "{E72987F4-29F5-4F3D-B217-EF2ABB452A19}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\SharePoint\Microsoft.Office.Server.dll = ThirdParty\SharePoint\Microsoft.Office.Server.dll
+		ThirdParty\SharePoint\Microsoft.Office.Server.UserProfiles.dll = ThirdParty\SharePoint\Microsoft.Office.Server.UserProfiles.dll
+		ThirdParty\SharePoint\Microsoft.SharePoint.dll = ThirdParty\SharePoint\Microsoft.SharePoint.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth0", "auth0", "{BCA7E76F-AFCB-4E27-85E3-AB0DBA896F62}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\Auth0\Auth0.Core.dll = ThirdParty\Auth0\Auth0.Core.dll
+		ThirdParty\Auth0\Auth0.ManagementApi.dll = ThirdParty\Auth0\Auth0.ManagementApi.dll
+		ThirdParty\Auth0\Newtonsoft.Json.dll = ThirdParty\Auth0\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31249E5-47EA-4FD8-94F6-62F532009648}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C5395825-EF6D-438E-9E22-95975F1276E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5395825-EF6D-438E-9E22-95975F1276E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5395825-EF6D-438E-9E22-95975F1276E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5395825-EF6D-438E-9E22-95975F1276E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01898E06-FA70-42B8-AE35-28D2BACDFBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01898E06-FA70-42B8-AE35-28D2BACDFBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01898E06-FA70-42B8-AE35-28D2BACDFBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01898E06-FA70-42B8-AE35-28D2BACDFBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E72987F4-29F5-4F3D-B217-EF2ABB452A19} = {08C254FA-3FFC-42FC-AC2C-D56F5D9B75F5}
+		{BCA7E76F-AFCB-4E27-85E3-AB0DBA896F62} = {08C254FA-3FFC-42FC-AC2C-D56F5D9B75F5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.nexplore.ch/tfs/nexplore
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Nx.SharePoint.Auth0\\Nx.SharePoint.Auth0.csproj
+		SccProjectName1 = Nx.SharePoint.Auth0
+		SccLocalPath1 = Nx.SharePoint.Auth0
+		SccProjectUniqueName2 = Auth0.Core\\Auth0.Core.csproj
+		SccProjectName2 = Auth0.Core
+		SccLocalPath2 = Auth0.Core
+		SccProjectUniqueName3 = Auth0.ManagementApi\\Auth0.ManagementApi.csproj
+		SccProjectName3 = Auth0.ManagementApi
+		SccLocalPath3 = Auth0.ManagementApi
+	EndGlobalSection
+EndGlobal

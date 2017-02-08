@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomActionGroup
+      Id="Auth0ApplicationSettingsGroup"
+      Title="Auth0 Administration Settings"
+      Description="Auth0 settings can be configured from here."
+      Location="Microsoft.SharePoint.Administration.Default"
+      ImageUrl="/_layouts/15/images/Nx.SharePoint.Auth0/auth0.png"
+      Sequence="1000"  />
+
+    <CustomAction
+    Id="Auth0SyncSettings"
+    Title="Auth0 Sync Timer Job"
+    Description="Settings for the Auth0 Sync Timer Job"
+    Location="Microsoft.SharePoint.Administration.Default"
+    GroupId="Auth0ApplicationSettingsGroup"
+    Sequence="1000">
+        <UrlAction Url="_admin/Nx/Auth0Sync.aspx"/>
+    </CustomAction>
+</Elements>
