@@ -4,3 +4,8 @@
 
 /Nx.SharePoint.Auth0/obj/Debug
 /.vs/Nx.SharePoint.Auth0/v14/.suo
+/Auth0.Core/bin/Debug
+/Auth0.Core/obj/Debug
+/Auth0.ManagementApi/bin/Debug
+/Auth0.ManagementApi/obj/Debug
+/Nx.SharePoint.Auth0/bin/Debug
