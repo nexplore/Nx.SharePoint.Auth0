@@ -1,0 +1,1 @@
+# Nx.SharePoint.Auth0
