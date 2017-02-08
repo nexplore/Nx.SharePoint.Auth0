@@ -9,3 +9,5 @@
 /Auth0.ManagementApi/bin/Debug
 /Auth0.ManagementApi/obj/Debug
 /Nx.SharePoint.Auth0/bin/Debug
+/Nx.SharePoint.Auth0/pkg/Debug/Nx.SharePoint.Auth0
+/Nx.SharePoint.Auth0/pkgobj/Debug

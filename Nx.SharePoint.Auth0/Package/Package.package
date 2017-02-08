@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7e361061-36b6-44cb-bf6f-c1946fd504d9" solutionId="7e361061-36b6-44cb-bf6f-c1946fd504d9" resetWebServer="false" sharePointProductVersion="15.0" name="Nx.SharePoint.Auth0" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <assemblies>
-    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\ThirdParty\Auth0\Newtonsoft.Json.dll" />
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\Nx.SharePoint.Auth0\ThirdParty\Auth0\Newtonsoft.Json.dll" />
     <projectOutputAssembly location="Auth0.Core.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Auth0.Core\Auth0.Core.csproj" />
     <projectOutputAssembly location="Auth0.ManagementApi.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Auth0.ManagementApi\Auth0.ManagementApi.csproj" />
   </assemblies>
